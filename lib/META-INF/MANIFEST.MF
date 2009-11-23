@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0
+Created-By: 1.5.0_16-b02 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+Bundle-Name: Scala Distribution
+Bundle-SymbolicName: scala.tools.nsc;singleton:=true
+Bundle-Version: 2.7.7.final
+Eclipse-LazyStart: true
+Bundle-ClassPath: .,bin,lib/fjbg.jar,lib/jline.jar,lib/msil.jar
+Export-Package: scala.tools.nsc,scala.tools.nsc.util,scala.tools.nsc.i
+ o,scala.tools.nsc.typechecker,scala.tools.nsc.symtab,scala.tools.nsc.
+ ast,scala.tools.nsc.ast.parser,scala.tools.nsc.reporters
+Require-Bundle: org.apache.ant,scala.library
+
